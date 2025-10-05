@@ -1,7 +1,7 @@
 {...}: {
   disko.devices = {
     disk.nix-bitcoin = {
-      device = "/dev/nvme0";
+      device = "/dev/nvme0n1";
       type = "disk";
       content = {
         type = "gpt";
