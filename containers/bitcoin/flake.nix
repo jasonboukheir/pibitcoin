@@ -52,7 +52,7 @@
               exposeLocalhost = true;
             };
             bindMounts."/" = {
-              hostPath = "/nix-bitcoin";
+              hostPath = "/mnt/nix-bitcoin";
               isReadOnly = false;
             };
 
