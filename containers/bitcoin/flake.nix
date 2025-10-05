@@ -51,8 +51,8 @@
               # Make the container's localhost reachable via localAddress
               exposeLocalhost = true;
             };
-            bindMounts."/var/lib/bitcoind" = {
-              hostPath = "/var/lib/bitcoind";
+            bindMounts."/" = {
+              hostPath = "/nix-bitcoin";
               isReadOnly = false;
             };
 
