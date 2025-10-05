@@ -8,7 +8,7 @@
   description = "A basic nix-bitcoin container node";
 
   inputs = {
-    nix-bitcoin.url = "github:fort-nix/nix-bitcoin/release";
+    nix-bitcoin.url = "github:fort-nix/nix-bitcoin/nixos-25.05";
     # You can also use a version branch to track a specific NixOS release
     # nix-bitcoin.url = "github:fort-nix/nix-bitcoin/nixos-25.05";
 
